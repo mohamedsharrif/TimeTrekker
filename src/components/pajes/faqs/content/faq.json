@@ -1,0 +1,34 @@
+[
+    {
+        "id": "1",
+      "question": "What is the Pomodoro Technique?",
+      "answer": "The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s. The technique aims to improve productivity and focus by breaking work into short, focused intervals called 'Pomodoros,' separated by brief breaks."
+    },
+    {
+        "id": "2",
+      "question": "How does the Pomodoro Technique work?",
+      "answer": "Here's how the Pomodoro Technique works: 1. Choose a task you want to complete. 2. Set a timer for 25 minutes (one Pomodoro session). 3. Work on the task uninterrupted until the timer goes off. 4. Take a short break of 5 minutes to relax and recharge. 5. Repeat the process, completing three more Pomodoro sessions followed by 5-minute breaks. 6. After completing four Pomodoro sessions, take a longer break of 15-30 minutes."
+    },
+    {
+        "id": "3",
+      "question": "Is the Pomodoro Technique effective?",
+      "answer": "The effectiveness of the Pomodoro Technique varies from person to person. Some people find it helpful for improving productivity and focus, while others may not. It's important to experiment with different productivity techniques to find what works best for you."
+    },
+    {
+        "id": "4",
+      "question": "How long is a Pomodoro session?",
+      "answer": "A Pomodoro session is typically 25 minutes long. However, some people may find it helpful to adjust the duration based on their individual preferences and work habits."
+    },
+    {
+        "id": "5",
+      "question": "How many Pomodoro sessions should I complete in a day?",
+      "answer": "There is no set number of Pomodoro sessions you should complete in a day. It depends on factors such as your workload, energy levels, and personal preferences. It's important to find a balance that works for you and allows you to accomplish your tasks effectively without burning out."
+    },
+    {
+        "id": "6",
+      "question": "Can I use the Pomodoro Technique for any type of task?",
+      "answer": "Yes, you can use the Pomodoro Technique for any type of task, whether it's work-related, studying, or personal projects. The key is to break the task into manageable intervals and focus on it during each Pomodoro session."
+    }
+  ]
+  
+  
