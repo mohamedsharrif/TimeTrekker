@@ -10,7 +10,6 @@ import NotFound from './components/utils/NotFound';
 import Register from './components/global/Register';
 import { AppProvider } from './context/AppContext';
 import Tasks from './components/pajes/Tasks';
-import Faq from './components/pajes/faqs/Faq';
 import Faqs from './components/pajes/faqs/Faqs';
 
 const routerProvider = createBrowserRouter([
@@ -18,6 +17,10 @@ const routerProvider = createBrowserRouter([
     path: '/',
     element: <App />,
     children: [
+      {
+      path: '/',
+      element: <Login />,
+      },
       {
         path: '/home',
         element: <Home />
