@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+
 const AddTasks = () => {
   const [taskInput, setTaskInput] = useState("");
   const [tasks, setTasks] = useState([]);
@@ -11,8 +12,8 @@ const AddTasks = () => {
     setShow(!show);
   };
 
-  const handleTaskInputChange = (event) => {
-    setTaskInput(event.target.value);
+  const handleTaskInputChange = (e) => {
+    setTaskInput(e.target.value);
   };
   const handleSaveTask = () => {
     if (taskInput.trim() !== "") {
@@ -27,6 +28,10 @@ const AddTasks = () => {
     setTasks(updatedTasks);
 };
 
+const handleClickSave =() =>{
+ 
+}
+
 
   return (
 
@@ -37,7 +42,7 @@ const AddTasks = () => {
                     {tasks.map((task, index) => (
                         <div key={index} className="border rounded p-3 flex justify-between items-center">
                             <div className="flex items-center">
-                                <div className='pointer'>
+                                <div onClick={handleClickSave} className=' cursor-pointer'>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6 mr-2">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                                 </svg>
@@ -83,12 +88,13 @@ const AddTasks = () => {
           />
           <button
             onClick={handleSaveTask}
-            className="border flex py-2 pl-5 pr-5 rounded-md Is justify-center m-auto bg-white text-sky-500 hover:bg-gray-500 "
+            className="border flex py-2 pl-5 pr-5 rounded-md Is justify-center m-auto bg-white text-sky-500 hover:bg-gray-100 "
           >
             Save
           </button>
         </div>
       )}
+    
     </div>
   );
 };
